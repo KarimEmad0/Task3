@@ -1,10 +1,7 @@
-THIS IS MUCH FASTER TO GET CSV FILE INTO MYSQL DATABASE 
-LOAD DATA INFILE ‘c:\\data\\file_to_import.csv’
-INTO TABLE TableName
-CHARACTER SET latin1 — or utf8
-COLUMNS TERMINATED BY ‘,’
-OPTIONALLY ENCLOSED BY ‘”‘
-ESCAPED BY ‘\’
-LINES TERMINATED BY ‘\n’
-IGNORE 1 LINES — Remove header ligne
-( column1,column2,column3,column4,column5, ….. );
+ instructions on how to set up your project locally :
+    
+    1- Download And install XAMPP on your device.
+    2-open XAMPP and Start Apache and MySQL.
+    3- Open XAMPP folder.
+    4-Find Htdocs folder, Here you can add your project folder, Now your project on localhost.
+    5-open your browser and type URL (localhost/name folder of your project/ name of the file you want to run) ex:http://localhost/task4/index.php .
